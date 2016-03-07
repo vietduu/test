@@ -1,0 +1,60 @@
+body {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#header {
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 15px 0;
+	background-color: #000;
+	color: #fff;
+}
+
+#sidebar {
+	background-color: #F2F2F2;
+	padding: 3px 3px 0px 3px;
+	float: left;
+}
+
+#sidebar > ul {
+	list-style-type: none;
+	-webkit-margin: 0;
+    -webkit-padding-start: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sidebar > ul > li {
+	padding-bottom: 10px;
+}
+
+#main-content {
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+#main-content > div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 500px;
+}
+
+#footer {
+	clear: both;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0px;
+}
+
+#validation, #positive-validation {
+	color: #FF0000;
+	margin-bottom: 20px;
+	display: block;
+}
+
+#part1 {
+	margin-top: 20px;
+}
